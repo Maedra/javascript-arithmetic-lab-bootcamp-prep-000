@@ -27,6 +27,5 @@ function makeInt(n){
 }
 
 function preserveDecimal(n){
-  var whole = parseInt(n, 10)
-  return whole - n
+  return parseFloat(n)
 }
