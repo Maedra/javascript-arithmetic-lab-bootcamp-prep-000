@@ -23,11 +23,10 @@ function dec(n){
 }
 
 function makeInt(n){
-  
   return parseInt(n, 10)
 }
 
 function preserveDecimal(n){
-  
-  return parseInt(n, 10)
+  var whole = parseInt(n, 10)
+  return whole - n
 }
